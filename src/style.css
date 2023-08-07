@@ -2,6 +2,23 @@ body {
   font-family: arial, sans-serif;
 }
 
+.heather {
+  position: relative;
+  bottom: 80px;
+}
+
+lord-icon {
+  position: relative;
+  right: -79%;
+  bottom: 260px;
+}
+
+.btn {
+  color: white;
+  background-color: #ec6e4c;
+  border: none;
+}
+
 h1 {
   color: #48484a;
   font-size: 24px;
@@ -32,7 +49,7 @@ li:first-letter {
 
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 250px auto;
+  margin: auto;
 }
 
 .weather-app {
