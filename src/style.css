@@ -7,6 +7,12 @@ body {
   bottom: 80px;
 }
 
+#search-form {
+  position: relative;
+  right: 45%;
+  bottom: 160px;
+}
+
 lord-icon {
   position: relative;
   right: -79%;
@@ -21,10 +27,10 @@ lord-icon {
 
 h1 {
   color: #48484a;
-  font-size: 24px;
+  font-size: 34px;
   font-weight: 100;
   line-height: 28px;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 ul {
@@ -36,11 +42,10 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-
   color: #48484a;
   font-size: 16px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 25px;
 }
 
 li:first-letter {
@@ -48,8 +53,8 @@ li:first-letter {
 }
 
 .weather-app-wrapper {
-  max-width: 600px;
-  margin: auto;
+  max-width: 700px;
+  margin: -300px auto 100px;
 }
 
 .weather-app {
@@ -59,17 +64,23 @@ li:first-letter {
 
 .overview {
   margin-bottom: 20px;
+  filter: drop-shadow(20px 10px 8px rgb(174, 174, 174));
+}
+
+.clearfix {
+  text-align: center;
 }
 
 .weather-temperature img {
-  margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 100px;
+  width: 100px;
+  margin-left: -25px;
+  filter: drop-shadow(20px 10px 8px rgb(174, 174, 174));
 }
 
 .weather-temperature strong {
   color: #48484a;
-  font-size: 64px;
+  font-size: 54px;
   line-height: 1;
   font-weight: 400;
 }
@@ -90,9 +101,10 @@ li:first-letter {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 100px;
   text-align: center;
   color: #000;
+  filter: drop-shadow(5px 5px 8px rgb(137, 137, 137));
 }
 
 .weather-forecast-date {
@@ -112,7 +124,7 @@ footer {
   color: #5f5f5f;
   background-color: #ec6e4c;
   position: relative;
-  margin: -90px 50px;
+  margin: -60px 50px;
 }
 .github {
   text-decoration: none;
