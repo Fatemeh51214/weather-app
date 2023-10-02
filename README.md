@@ -1,9 +1,6 @@
 # PROJECT TITLE: 
 weather-app
 
-# Video Demo:  
-https://youtu.be/H8fVPwDQDjs
-
 # Description:
 
 ### Weather App
